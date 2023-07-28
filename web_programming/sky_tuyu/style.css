@@ -1,0 +1,107 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Comic Sans MS';
+}
+
+/* Body */
+body {
+   background-color: #e2f7fa;
+   background-image: url('img/noMessage.jpg');
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-size: contain;
+   background-size: cover;
+}
+
+
+/* Image bigger when hover */
+img { 
+	transition: all .2s ease-in-out; 
+   
+}
+img:hover { 
+    	transform: scale(1.04); 
+}
+
+/* Image letter */
+.imgletter{
+   text-align: center;
+   
+}
+
+/* Button */
+.msbtn button {
+   color:rgb(244, 248, 249);
+   background:url('img/cloud.jfif') ;
+   height: 50px;
+   width: 100px;
+   border-color: #48cae1;
+}
+
+button:hover{
+   transform: scale(1.03);
+}
+
+/* "Put Your Letter Here" */
+h1{
+   color: rgb(75, 75, 75);
+}
+
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  width:100%;
+  padding: 40% 100% 100% 90%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Full-width input fields */
+.form-container input[type=text]{
+  width: 100%;
+  padding: 15px 0px;
+  margin: 30px 0 15px 0;
+  border: none;
+  background: rgba(255 ,255 ,255 , 0.2);
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus{
+  background-color: rgba(226,247,250, 0.6);
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #9be4df;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: rgb(143, 190, 198);
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/* Table */
+
+

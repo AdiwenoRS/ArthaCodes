@@ -1,0 +1,77 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Comic Sans MS';
+}
+
+/* Body */
+body {
+  background-color: #e2f7fa;
+   background-image: url('../img/skycloud.png');
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-size: contain;
+   background-size: cover;
+}
+
+
+/* Button */
+.msbtn button {
+   color:rgb(244, 248, 249);
+   background:url('../img/cloud.jfif') ;
+   height: 50px;
+   width: 100px;
+   border-color: #48cae1;
+}
+
+button:hover{
+   transform: scale(1.03);
+}
+
+/* "Put Your Letter Here" */
+h1{
+  margin-top: 1cm;
+   color: rgb(255, 255, 255);
+}
+
+
+
+/* table */
+.scroll {
+  border-radius: 2%;
+  background-color: #00000067;
+  color: white;
+  width: 700px;
+  height: 430px;
+  overflow: scroll;
+  scrollbar-color: none;
+}
+
+/*letter text*/
+.text{
+  margin-top: 25px;
+  text-align: left;
+  font-size: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0000008e;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #87a0c7ce;
+}
