@@ -1,0 +1,15 @@
+{
+  "id": {CHANNEL_ID},
+  "kind": "youtube#channel",
+  "etag": etag,
+  "contentDetails": {
+    "relatedPlaylists": {
+      "likes": {LIKES_PLAYLIST_ID},
+      "favorites": {FAVORITES_PLAYLIST_ID},
+      "uploads": {UPLOADS_PLAYLIST_ID},
+      "watchHistory": {WATCHHISTORY_PLAYLIST_ID},
+      "watchLater": {WATCHLATER_PLAYLIST_ID}
+    },
+    "googlePlusUserId": string
+  },
+}
